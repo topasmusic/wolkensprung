@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "wolkensprung",
+  "version": "${version}",
+  "name": "Wolkensprung",
+  "description": "Standalone Wolkensprung story quest with quest NPC, chest run, checkpoints, and admin tools.",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/wolkensprung/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.wolkensprung.WolkensprungMod"
+    ],
+    "client": [
+      "de.wolkensprung.client.WolkensprungClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.3"
+  }
+}
