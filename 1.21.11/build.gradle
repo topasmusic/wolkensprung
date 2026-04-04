@@ -5,6 +5,7 @@ plugins {
 
 version = project.mod_version
 group = project.maven_group
+def releaseArtifactBase = "${project.archives_base_name}-${project.version}-mc${project.minecraft_version}"
 
 base {
     archivesName = project.archives_base_name
@@ -49,7 +50,7 @@ tasks.register("pruneOldBuildLibs") {
             return
         }
 
-        def currentPrefix = "${project.archives_base_name}-${project.version}"
+        def currentPrefix = releaseArtifactBase
         fileTree(libsDir) {
             include "${project.archives_base_name}-*.jar"
         }.files.findAll { !it.name.startsWith(currentPrefix) }.each { file ->
@@ -67,6 +68,14 @@ tasks.named("build").configure {
 jar {
     inputs.property "archivesName", project.base.archivesName
     from("LICENSE") { rename { "${it}_${inputs.properties.archivesName}" } }
+}
+
+tasks.named("remapJar").configure {
+    archiveFileName = "${releaseArtifactBase}.jar"
+}
+
+tasks.named("remapSourcesJar").configure {
+    archiveFileName = "${releaseArtifactBase}-sources.jar"
 }
 
 publishing {

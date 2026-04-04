@@ -5,13 +5,14 @@
   "name": "Wolkensprung",
   "description": "Standalone Wolkensprung story quest with quest NPC, chest run, checkpoints, and admin tools.",
   "authors": [
-    "Me!"
+    "TopasMusic",
+    "Landschaftswart"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/topasmusic/wolkensprung",
+    "sources": "https://github.com/topasmusic/wolkensprung"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/wolkensprung/icon.png",
   "environment": "*",
   "entrypoints": {
