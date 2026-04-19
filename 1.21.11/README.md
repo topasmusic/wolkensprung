@@ -4,7 +4,7 @@ Version folder for the `1.21.11` release line.
 
 - Minecraft: `1.21.11`
 - Java: `21`
-- Mod version: `0.2.0`
+- Mod version: `0.2.1`
 
 See the root [README](../README.md) and [wiki](../docs/wiki/getting-started.md) for setup and command documentation.
 

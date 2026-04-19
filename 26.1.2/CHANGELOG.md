@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1
+
+- Added Minecraft `26.1.2` support for Wolkensprung.
+- Updated Fabric Loader to `0.19.2`.
+- Updated Fabric API to `0.146.1+26.1.2`.
+
 ## 0.2.0
 
 - Added Minecraft `26.1.1` support for Wolkensprung.
