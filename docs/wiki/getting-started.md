@@ -18,9 +18,10 @@ A player talks to an NPC, starts a run, reaches a spawned case on the target isl
 ## Version folders
 
 - [`1.21.11`](../../1.21.11): Minecraft `1.21.11`, Java 21
+- [`26.2`](../../26.2): Minecraft `26.2`, Java 25
 - [`26.1.2`](../../26.1.2): Minecraft `26.1.2`, Java 25
 
-Commands are the same in both versions.
+Commands are the same in all versions.
 
 ## First test setup
 

@@ -7,6 +7,7 @@ It lets you place quest NPCs, define one or more courses, spawn a personal case/
 ## Supported versions
 
 - Minecraft `1.21.11` in [`1.21.11`](./1.21.11) with Java 21
+- Minecraft `26.2` in [`26.2`](./26.2) with Java 25
 - Minecraft `26.1.2` in [`26.1.2`](./26.1.2) with Java 25
 
 ## Features
@@ -31,15 +32,23 @@ It lets you place quest NPCs, define one or more courses, spawn a personal case/
 `1.21.11`
 
 ```powershell
-Set-Location 'C:\Users\me\Desktop\Topas Mods\Wolkensprung\1.21.11'
+Set-Location 'C:\Users\me\Desktop\Topas Mods\MC MODS\Topas Mods\Wolkensprung\1.21.11'
 $env:JAVA_HOME='C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot'
+.\gradlew.bat build
+```
+
+`26.2`
+
+```powershell
+Set-Location 'C:\Users\me\Desktop\Topas Mods\MC MODS\Topas Mods\Wolkensprung\26.2'
+$env:JAVA_HOME='C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot'
 .\gradlew.bat build
 ```
 
 `26.1.2`
 
 ```powershell
-Set-Location 'C:\Users\me\Desktop\Topas Mods\Wolkensprung\26.1.2'
+Set-Location 'C:\Users\me\Desktop\Topas Mods\MC MODS\Topas Mods\Wolkensprung\26.1.2'
 $env:JAVA_HOME='C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot'
 .\gradlew.bat build
 ```
