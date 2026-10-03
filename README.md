@@ -6,6 +6,7 @@ It lets you place quest NPCs, define one or more courses, spawn a personal case/
 
 ## Supported versions
 
+- Minecraft `26.3` in [`26.3`](./26.3) with Java 25
 - Minecraft `1.21.11` in [`1.21.11`](./1.21.11) with Java 21
 - Minecraft `26.2` in [`26.2`](./26.2) with Java 25
 - Minecraft `26.1.2` in [`26.1.2`](./26.1.2) with Java 25
@@ -28,6 +29,14 @@ It lets you place quest NPCs, define one or more courses, spawn a personal case/
 - [Localization and content](./docs/wiki/localization-and-content.md)
 
 ## Build
+
+`26.3`
+
+From the `26.3` folder, with Java 25 configured:
+
+```powershell
+.\gradlew.bat build
+```
 
 `1.21.11`
 
